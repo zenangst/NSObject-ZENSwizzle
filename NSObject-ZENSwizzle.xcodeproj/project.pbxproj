@@ -6,20 +6,92 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BDB932471A0F6AB900F34A01 /* NSObject_ZENSwizzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB932461A0F6AB900F34A01 /* NSObject_ZENSwizzleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BDB932411A0F6AB900F34A01 /* NSObject-ZENSwizzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSObject-ZENSwizzleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB932451A0F6AB900F34A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB932461A0F6AB900F34A01 /* NSObject_ZENSwizzleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_ZENSwizzleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDB9323E1A0F6AB900F34A01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
 		BDB932361A0F6A5F00F34A01 = {
 			isa = PBXGroup;
 			children = (
+				BDB932431A0F6AB900F34A01 /* NSObject-ZENSwizzleTests */,
+				BDB932421A0F6AB900F34A01 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
+		BDB932421A0F6AB900F34A01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDB932411A0F6AB900F34A01 /* NSObject-ZENSwizzleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDB932431A0F6AB900F34A01 /* NSObject-ZENSwizzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDB932461A0F6AB900F34A01 /* NSObject_ZENSwizzleTests.m */,
+				BDB932441A0F6AB900F34A01 /* Supporting Files */,
+			);
+			path = "NSObject-ZENSwizzleTests";
+			sourceTree = "<group>";
+		};
+		BDB932441A0F6AB900F34A01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDB932451A0F6AB900F34A01 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDB932401A0F6AB900F34A01 /* NSObject-ZENSwizzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB9324A1A0F6AB900F34A01 /* Build configuration list for PBXNativeTarget "NSObject-ZENSwizzleTests" */;
+			buildPhases = (
+				BDB9323D1A0F6AB900F34A01 /* Sources */,
+				BDB9323E1A0F6AB900F34A01 /* Frameworks */,
+				BDB9323F1A0F6AB900F34A01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSObject-ZENSwizzleTests";
+			productName = "NSObject-ZENSwizzleTests";
+			productReference = BDB932411A0F6AB900F34A01 /* NSObject-ZENSwizzleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		BDB932371A0F6A5F00F34A01 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					BDB932401A0F6AB900F34A01 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
 			};
 			buildConfigurationList = BDB9323A1A0F6A5F00F34A01 /* Build configuration list for PBXProject "NSObject-ZENSwizzle" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -29,12 +101,35 @@
 				en,
 			);
 			mainGroup = BDB932361A0F6A5F00F34A01;
+			productRefGroup = BDB932421A0F6AB900F34A01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				BDB932401A0F6AB900F34A01 /* NSObject-ZENSwizzleTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDB9323F1A0F6AB900F34A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDB9323D1A0F6AB900F34A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB932471A0F6AB900F34A01 /* NSObject_ZENSwizzleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		BDB9323B1A0F6A5F00F34A01 /* Debug */ = {
@@ -49,6 +144,96 @@
 			};
 			name = Release;
 		};
+		BDB932481A0F6AB900F34A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "NSObject-ZENSwizzleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BDB932491A0F6AB900F34A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "NSObject-ZENSwizzleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -60,6 +245,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		BDB9324A1A0F6AB900F34A01 /* Build configuration list for PBXNativeTarget "NSObject-ZENSwizzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB932481A0F6AB900F34A01 /* Debug */,
+				BDB932491A0F6AB900F34A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
