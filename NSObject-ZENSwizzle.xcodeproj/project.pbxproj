@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BDB932471A0F6AB900F34A01 /* NSObject_ZENSwizzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB932461A0F6AB900F34A01 /* NSObject_ZENSwizzleTests.m */; };
 		BDB9324E1A0F6AD400F34A01 /* NSObject+ZENSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB9324D1A0F6AD400F34A01 /* NSObject+ZENSwizzle.m */; };
+		BDB932531A0F6B1900F34A01 /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = BDB932501A0F6B1900F34A01 /* LICENSE.md */; };
+		BDB932541A0F6B1900F34A01 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BDB932511A0F6B1900F34A01 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +19,8 @@
 		BDB932461A0F6AB900F34A01 /* NSObject_ZENSwizzleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_ZENSwizzleTests.m; sourceTree = "<group>"; };
 		BDB9324C1A0F6AD400F34A01 /* NSObject+ZENSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZENSwizzle.h"; sourceTree = "<group>"; };
 		BDB9324D1A0F6AD400F34A01 /* NSObject+ZENSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZENSwizzle.m"; sourceTree = "<group>"; };
+		BDB932501A0F6B1900F34A01 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		BDB932511A0F6B1900F34A01 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,8 @@
 		BDB932361A0F6A5F00F34A01 = {
 			isa = PBXGroup;
 			children = (
+				BDB932501A0F6B1900F34A01 /* LICENSE.md */,
+				BDB932511A0F6B1900F34A01 /* README.md */,
 				BDB9324B1A0F6AD400F34A01 /* Source */,
 				BDB932431A0F6AB900F34A01 /* NSObject-ZENSwizzleTests */,
 				BDB932421A0F6AB900F34A01 /* Products */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDB9324E1A0F6AD400F34A01 /* NSObject+ZENSwizzle.m in Sources */,
+				BDB932531A0F6B1900F34A01 /* LICENSE.md in Sources */,
+				BDB932541A0F6B1900F34A01 /* README.md in Sources */,
 				BDB932471A0F6AB900F34A01 /* NSObject_ZENSwizzleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
