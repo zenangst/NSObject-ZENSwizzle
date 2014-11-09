@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		BDB932471A0F6AB900F34A01 /* NSObject_ZENSwizzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB932461A0F6AB900F34A01 /* NSObject_ZENSwizzleTests.m */; };
+		BDB9324E1A0F6AD400F34A01 /* NSObject+ZENSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB9324D1A0F6AD400F34A01 /* NSObject+ZENSwizzle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BDB932411A0F6AB900F34A01 /* NSObject-ZENSwizzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSObject-ZENSwizzleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB932451A0F6AB900F34A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDB932461A0F6AB900F34A01 /* NSObject_ZENSwizzleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_ZENSwizzleTests.m; sourceTree = "<group>"; };
+		BDB9324C1A0F6AD400F34A01 /* NSObject+ZENSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZENSwizzle.h"; sourceTree = "<group>"; };
+		BDB9324D1A0F6AD400F34A01 /* NSObject+ZENSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZENSwizzle.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +33,7 @@
 		BDB932361A0F6A5F00F34A01 = {
 			isa = PBXGroup;
 			children = (
+				BDB9324B1A0F6AD400F34A01 /* Source */,
 				BDB932431A0F6AB900F34A01 /* NSObject-ZENSwizzleTests */,
 				BDB932421A0F6AB900F34A01 /* Products */,
 			);
@@ -58,6 +62,15 @@
 				BDB932451A0F6AB900F34A01 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDB9324B1A0F6AD400F34A01 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BDB9324C1A0F6AD400F34A01 /* NSObject+ZENSwizzle.h */,
+				BDB9324D1A0F6AD400F34A01 /* NSObject+ZENSwizzle.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDB9324E1A0F6AD400F34A01 /* NSObject+ZENSwizzle.m in Sources */,
 				BDB932471A0F6AB900F34A01 /* NSObject_ZENSwizzleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
