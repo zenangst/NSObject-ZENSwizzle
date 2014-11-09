@@ -2,14 +2,6 @@
 
 Every day I'm swizzling
 
-#### Build from Source
-
-* Build the Xcode project. The plug-in will automatically be installed in `~/Library/Application Support/Developer/Shared/Xcode/Plug-ins`.
-
-* Relaunch Xcode.
-
-To uninstall, just remove the plugin from `~/Library/Application Support/Developer/Shared/Xcode/Plug-ins` and restart Xcode.
-
 ## Contribute
 
 1. Fork it
