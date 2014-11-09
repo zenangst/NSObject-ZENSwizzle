@@ -1,0 +1,67 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXGroup section */
+		BDB932361A0F6A5F00F34A01 = {
+			isa = PBXGroup;
+			children = (
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		BDB932371A0F6A5F00F34A01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = BDB9323A1A0F6A5F00F34A01 /* Build configuration list for PBXProject "NSObject-ZENSwizzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BDB932361A0F6A5F00F34A01;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		BDB9323B1A0F6A5F00F34A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		BDB9323C1A0F6A5F00F34A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDB9323A1A0F6A5F00F34A01 /* Build configuration list for PBXProject "NSObject-ZENSwizzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB9323B1A0F6A5F00F34A01 /* Debug */,
+				BDB9323C1A0F6A5F00F34A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDB932371A0F6A5F00F34A01 /* Project object */;
+}
